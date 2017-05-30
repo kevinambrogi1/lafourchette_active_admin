@@ -6,7 +6,7 @@
 .banner {
   color: white;
   text-align: center;
-  height: 30.5vh;
+  height: 100vh;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
   display: flex;
@@ -27,9 +27,10 @@
 
 // Cards
 .card {
-  height: 175px;
+  height: 105px;
   text-shadow: 0 1px 3px rgba(0,0,0,0.6);
-  background-size: cover !important;
+  background-size: contain !important;
+  background-repeat: no-repeat;
   color: white;
   position: relative;
 }
@@ -51,7 +52,7 @@
   left: 10px;
 }
 .card-description h2 {
-  font-size: 24px;
+  font-size: 20px;
 }
 .card-description p {
   font-size: 13px;
@@ -62,7 +63,7 @@
   bottom: 0;
   right: 0;
   width: 100%;
-  z-index:2;
+  // z-index:2;
   background: black;
   opacity: 0;
 }

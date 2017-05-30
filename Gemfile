@@ -22,6 +22,7 @@ gem 'rails_admin', '>= 1.0.0.rc'
 gem 'erubis', '~> 2.7'
 gem 'erubi', '~> 1.6'
 gem 'bundler', '1.13.7'
+gem 'cloudinary'
 
 group :development, :test do
   gem 'binding_of_caller'
